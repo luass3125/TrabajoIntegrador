@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+   
+header {
+   background-color: rgb(207, 177, 235);
+    background-repeat :no-repeat; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+   
+
+   
+}
+h1 {
+    font-family: "Kalnia Glaze", serif;
+  
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+     text-decoration: none;
+     font-size: x-large;
+     color: rgb(167, 196, 220); 
+    padding: 0.2em;
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-between;
+   
+
+
+}
+
+nav li {
+    text-align: center;
+    margin-right: 20px;
+    text-shadow: 1px 2px 2px #CE5937;
+  
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+   
+   
+   }
+   
+   .catalogo ul {
+    list-style: none;
+    padding: 5;
+    margin: 0;
+
+     
+   
+   }
+   
+   .catalogo li {
+    display: inline-block;
+    margin: 10px;
+     url(align-items:%20center%3B%20%20%20%20%20%20%20%20width%3A%20100px%3B%20%20%20%20%20%20%20%20height%3A%20100px%3B%20%20%20%20%20%20%20%20flex%3A%20none%3B%20%20%20%20%7D)
+   }
+   
+   .catalogo img {
+    width: 100px;
+    height: 120px;
+    
+   
+   }
+   
+   .carrito {
+    display:none;
+     
+   }
+   
+   .pago {
+    display: none;
+   }
+   ul {
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+    border-radius: 0%;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+}
