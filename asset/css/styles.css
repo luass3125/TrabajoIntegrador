@@ -14,8 +14,9 @@ header {
 }
 h1 {
     font-family: "Kalnia Glaze", serif;
-  
-}
+    }
+   
+
 nav ul {
     list-style: none;
     margin: 0;
@@ -62,19 +63,14 @@ nav a {
    }
    
    .catalogo img {
+    display:flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: center;
     width: 100px;
     height: 120px;
     
-   
-   }
-   
-   .carrito {
-    display:none;
-     
-   }
-   
-   .pago {
-    display: none;
+  
    }
    ul {
     display: flex;
@@ -89,4 +85,15 @@ nav a {
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-around;
+}
+footer{
+    
+background-color: black;
+    background-repeat :no-repeat; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+   
+
 }
